@@ -36,7 +36,7 @@ public class PositiveTests {
 
 		// push log in button
 		WebElement logInButton = driver.findElement(By.className("radius"));
-		wait.until(ExpectedConditions.elementToBeClickable(logInButton));
+	//	wait.until(ExpectedConditions.elementToBeClickable(logInButton));
 		logInButton.click();
 
 		// verifications
